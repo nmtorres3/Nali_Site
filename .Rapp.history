@@ -1,0 +1,29 @@
+library(distill)#
+create_website(dir = ".", title = "mfeo", gh_pages = TRUE)
+create_postcard(file = "tobi.Rmd")
+install.packages(c("distill", "rmarkdown", "postcards"))
+create_postcard(file = "tobi.Rmd")
+packageVersion("distill")#
+packageVersion("rmarkdown")#
+packageVersion("postcards")
+library("postacard")
+library("postcard")
+library("postcards")
+create_postcard(file = "tobi.Rmd")
+create_article(file = "Natasha",         #
+               template = "jolla",    #
+               package = "postcards")
+library(distill)
+library(rmarkdown)
+create_article(file = "tobi",         # future name of .Rmd file#
+               template = "jolla",    # name of template#
+               package = "postcards")
+create_article(file = "Natasha",         # future name of .Rmd file#
+               template = "jolla",    # name of template#
+               package = "postcards")
+Natasha.Rmd
+source("/Users/natashatorres/Desktop/Nali_Site/Nali_Site.Rproj")
+gw
+library(postcards)
+library(distill)
+create_theme("postcards")

@@ -1,0 +1,21 @@
+---
+ title: "StudywithNali"
+ image: "nali.jpg"
+ color1: "#989E8B"
+ color2: "#DDB8A6"
+ angle: 130
+ links:
+  - label: Instagram
+    url: "https://www.instagram.com/studywithnali/"
+  - label: Pinterest
+    url: "https://www.pinterest.com/studywithnali/"
+  - label: Twitter
+    url: "https://twitter.com/Studywithnali"
+  - label: Contact
+    url: "mailto:studywithnali@gmail.com"
+ site: distill::distill_website  
+ output:
+  postcards::onofre
+---
+
+  Welcome to my website! I am the owner of @studywithnali on Instagram where I  create content about my journey as a graduate student. I share content related to study, productivity, and organization tips.

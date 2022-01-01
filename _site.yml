@@ -1,0 +1,26 @@
+name:  "nali_website"
+title:  "StudywithNali"
+theme:  "postcards.css"
+description: |
+  StudywithNali
+output_dir: "docs"
+navbar:
+  search:  false
+  right:
+    - text:  "Home"
+      href:  index.html
+    - text:  "F.A.Q."
+      href:  about.html
+    - text:  "Freebies"
+      href:  planners.html
+    - text:  "Blog"   
+      href:  blog.html 
+    - text:  "Contact"              
+      href:  Natasha.html 
+ 
+
+site:  distill::distill_website  
+      
+output: 
+  distill::distill_article
+
